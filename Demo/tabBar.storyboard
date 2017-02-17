@@ -12,7 +12,7 @@
         <!--Item 2-->
         <scene sceneID="IQV-Oz-Wvh">
             <objects>
-                <viewController id="j8B-Dr-3ZG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="green" id="j8B-Dr-3ZG" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vqm-Ol-ZgI"/>
                         <viewControllerLayoutGuide type="bottom" id="02T-bR-tyN"/>
@@ -31,7 +31,7 @@
         <!--Item 1-->
         <scene sceneID="yx5-pV-Auz">
             <objects>
-                <viewController id="7D4-Uu-Bor" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="red" id="7D4-Uu-Bor" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="W99-ZI-C5B"/>
                         <viewControllerLayoutGuide type="bottom" id="8vZ-14-MXz"/>
@@ -69,7 +69,7 @@
         <!--Item 3-->
         <scene sceneID="RMd-iC-Onm">
             <objects>
-                <viewController id="Aoc-UW-Ndt" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="blue" id="Aoc-UW-Ndt" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="se5-WO-uxw"/>
                         <viewControllerLayoutGuide type="bottom" id="WYV-1O-ulv"/>

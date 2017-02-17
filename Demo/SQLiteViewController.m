@@ -46,7 +46,7 @@
     [student setAge:[_age.text intValue]];
     [DatabaseHelper insertStudent:student];
     
-    NSDictionary *dict = [self getDictionaryFromObject_Ext:student];
+    NSDictionary *dict = [student dictionaryFromModel];
     NSLog(@"%@",dict);
     
     [JsonOperation convertToJSONData:dict];

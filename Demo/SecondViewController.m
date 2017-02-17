@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import "SegueViewController.h"
 
 @interface SecondViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
@@ -32,5 +33,9 @@
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self.delegate PassValue:@"更改标题"];
+}
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    SegueViewController *cv = [segue destinationViewController];
+    [cv setValue:@"传输数据" forKey:@"intent"];
 }
 @end

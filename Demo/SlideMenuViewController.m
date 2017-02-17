@@ -8,6 +8,7 @@
 
 #import "SlideMenuViewController.h"
 #import "GestureViewController.h"
+#import "SecondSlideViewController.h"
 
 @interface SlideMenuViewController ()
 
@@ -23,11 +24,16 @@ UIPanGestureRecognizer *slidePan;
 MoveDirection pDirection;
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIBarButtonItem *right = [[UIBarButtonItem alloc] initWithTitle:@"第二种" style:UIBarButtonItemStylePlain target:self action:@selector(rightClick)];
+    self.navigationItem.rightBarButtonItem = right;
     _isFirst = YES;
     slidePan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan)];
     [_mainMenu addGestureRecognizer:slidePan];
 }
-
+-(void)rightClick{
+    SecondSlideViewController *cv = [[SecondSlideViewController alloc] init];
+    [self nextController:cv :@""];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }

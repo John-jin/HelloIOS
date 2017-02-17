@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PickerViewController">
+            <connections>
+                <outlet property="myDataPicker" destination="tQg-jY-1AC" id="Oax-mc-LaN"/>
+                <outlet property="myPicker" destination="7Vc-Be-3V8" id="Rqq-zN-sFY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="tQg-jY-1AC">
+                    <rect key="frame" x="0.0" y="64" width="375" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="LgD-3M-ooU"/>
+                    </constraints>
+                    <date key="date" timeIntervalSinceReferenceDate="508734849.60722297">
+                        <!--2017-02-14 03:14:09 +0000-->
+                    </date>
+                    <connections>
+                        <action selector="dataPickerChanged:" destination="-1" eventType="valueChanged" id="A81-Ln-uil"/>
+                    </connections>
+                </datePicker>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Vc-Be-3V8">
+                    <rect key="frame" x="0.0" y="467" width="375" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="HkJ-GN-i8i"/>
+                    </constraints>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="7Vc-Be-3V8" secondAttribute="bottom" id="9of-hj-xx1"/>
+                <constraint firstAttribute="trailing" secondItem="7Vc-Be-3V8" secondAttribute="trailing" id="NLJ-v3-7b3"/>
+                <constraint firstItem="tQg-jY-1AC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="V2A-3X-KbS"/>
+                <constraint firstItem="tQg-jY-1AC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="ZUs-CX-nk1"/>
+                <constraint firstAttribute="trailing" secondItem="tQg-jY-1AC" secondAttribute="trailing" id="lgX-15-goy"/>
+                <constraint firstItem="7Vc-Be-3V8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qJg-5j-dWg"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

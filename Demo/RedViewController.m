@@ -7,6 +7,7 @@
 //
 
 #import "RedViewController.h"
+#import "Tools.h"
 
 @interface RedViewController ()
 
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.view setFrame:CGRectMake(0, 0, [Tools getScreenWidth], [Tools getScreenHeight] -44)];
 }
 
 - (void)didReceiveMemoryWarning {

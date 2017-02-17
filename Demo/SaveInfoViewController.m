@@ -8,7 +8,7 @@
 
 #import "SaveInfoViewController.h"
 
-@interface SaveInfoViewController ()
+@interface SaveInfoViewController ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *userNameLabel;
 @property (weak, nonatomic) IBOutlet UITextField *passwordLabel;
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
@@ -29,9 +29,14 @@
  */
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _userNameLabel.delegate = self;
+    [_userNameLabel resignFirstResponder];
     
 }
-
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [textField resignFirstResponder];
+    return NO;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
@@ -66,6 +71,13 @@
         
     }
 }
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    if (_userNameLabel.isFirstResponder) {
+        [_userNameLabel resignFirstResponder];
+    }else if(_passwordLabel.isFirstResponder){
+        [_passwordLabel resignFirstResponder];
+    }
+}
 - (IBAction)saveSandbox:(id)sender {
     //存储的路径
 //    NSString *homeDir = NSHomeDirectory();
@@ -82,7 +94,6 @@
     if([array writeToFile:filePath atomically:YES]){
         NSLog(@"写入成功");
     }
-
 
 }
 

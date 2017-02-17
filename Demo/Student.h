@@ -13,4 +13,5 @@
     @property (nonatomic, retain) NSString *name;
     @property (nonatomic, retain) NSString *sex;
     @property (nonatomic, assign) NSInteger age;
+    @property (nonatomic,strong) NSMutableArray *array;
 @end

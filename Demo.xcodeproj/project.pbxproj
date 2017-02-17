@@ -14,6 +14,18 @@
 		CE0043341E271D860084DE74 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0043331E271D860084DE74 /* DataBase.m */; };
 		CE0043371E271FE30084DE74 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE00432C1E2714F80084DE74 /* libsqlite3.0.tbd */; };
 		CE00433A1E2721230084DE74 /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0043391E2721230084DE74 /* DatabaseHelper.m */; };
+		CE007CAD1E5137BE00B7CA90 /* SecondSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE007CAC1E5137BE00B7CA90 /* SecondSlideViewController.m */; };
+		CE007CBC1E518C9A00B7CA90 /* SegueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE007CBB1E518C9A00B7CA90 /* SegueViewController.m */; };
+		CE02F6711E528EDE009F3A77 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02F66F1E528EDE009F3A77 /* MoreViewController.m */; };
+		CE02F6721E528EDE009F3A77 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE02F6701E528EDE009F3A77 /* MoreViewController.xib */; };
+		CE02F6751E528F53009F3A77 /* MoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02F6741E528F53009F3A77 /* MoreView.m */; };
+		CE02F6771E528F62009F3A77 /* MoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE02F6761E528F62009F3A77 /* MoreView.xib */; };
+		CE02F67B1E52908F009F3A77 /* ToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02F6791E52908F009F3A77 /* ToolBarViewController.m */; };
+		CE02F67C1E52908F009F3A77 /* ToolBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE02F67A1E52908F009F3A77 /* ToolBarViewController.xib */; };
+		CE02F6801E52AD6A009F3A77 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02F67E1E52AD6A009F3A77 /* PickerViewController.m */; };
+		CE02F6811E52AD6A009F3A77 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE02F67F1E52AD6A009F3A77 /* PickerViewController.xib */; };
+		CE02F6851E52DA7F009F3A77 /* PageControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE02F6831E52DA7F009F3A77 /* PageControlViewController.m */; };
+		CE02F6861E52DA7F009F3A77 /* PageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE02F6841E52DA7F009F3A77 /* PageControlViewController.xib */; };
 		CE03EB461E246DA900629540 /* NetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE03EB451E246DA900629540 /* NetViewController.m */; };
 		CE03EB4A1E248B7700629540 /* HttpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CE03EB491E248B7700629540 /* HttpTools.m */; };
 		CE06E6DF1E3082AA00B0E3E5 /* NSObject+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = CE06E6DE1E3082AA00B0E3E5 /* NSObject+Ext.m */; };
@@ -46,6 +58,7 @@
 		CEA190811E2F56AB00C2B5EB /* AnimViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA1907F1E2F56AB00C2B5EB /* AnimViewController.xib */; };
 		CEA206DA1E2C4EC500F77F82 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA206D81E2C4EC500F77F82 /* AddContactViewController.m */; };
 		CEA206DB1E2C4EC500F77F82 /* AddContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA206D91E2C4EC500F77F82 /* AddContactViewController.xib */; };
+		CEB95A101E53EF6C00BA1E78 /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB95A0F1E53EF6C00BA1E78 /* ThreadViewController.m */; };
 		CED533941E28B30500330D70 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED533931E28B30500330D70 /* Contacts.framework */; };
 		CED533961E28B30B00330D70 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED533951E28B30B00330D70 /* ContactsUI.framework */; };
 		CED5339A1E28B3DE00330D70 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED533981E28B3DE00330D70 /* ContactsViewController.m */; };
@@ -81,6 +94,25 @@
 		CE0043351E271E470084DE74 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		CE0043381E2721230084DE74 /* DatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseHelper.h; sourceTree = "<group>"; };
 		CE0043391E2721230084DE74 /* DatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseHelper.m; sourceTree = "<group>"; };
+		CE007CAB1E5137BE00B7CA90 /* SecondSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondSlideViewController.h; sourceTree = "<group>"; };
+		CE007CAC1E5137BE00B7CA90 /* SecondSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondSlideViewController.m; sourceTree = "<group>"; };
+		CE007CBA1E518C9A00B7CA90 /* SegueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueViewController.h; sourceTree = "<group>"; };
+		CE007CBB1E518C9A00B7CA90 /* SegueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueViewController.m; sourceTree = "<group>"; };
+		CE02F66E1E528EDE009F3A77 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		CE02F66F1E528EDE009F3A77 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		CE02F6701E528EDE009F3A77 /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		CE02F6731E528F53009F3A77 /* MoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreView.h; sourceTree = "<group>"; };
+		CE02F6741E528F53009F3A77 /* MoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreView.m; sourceTree = "<group>"; };
+		CE02F6761E528F62009F3A77 /* MoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreView.xib; sourceTree = "<group>"; };
+		CE02F6781E52908F009F3A77 /* ToolBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBarViewController.h; sourceTree = "<group>"; };
+		CE02F6791E52908F009F3A77 /* ToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarViewController.m; sourceTree = "<group>"; };
+		CE02F67A1E52908F009F3A77 /* ToolBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToolBarViewController.xib; sourceTree = "<group>"; };
+		CE02F67D1E52AD6A009F3A77 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		CE02F67E1E52AD6A009F3A77 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		CE02F67F1E52AD6A009F3A77 /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		CE02F6821E52DA7F009F3A77 /* PageControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControlViewController.h; sourceTree = "<group>"; };
+		CE02F6831E52DA7F009F3A77 /* PageControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControlViewController.m; sourceTree = "<group>"; };
+		CE02F6841E52DA7F009F3A77 /* PageControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageControlViewController.xib; sourceTree = "<group>"; };
 		CE03EB441E246DA900629540 /* NetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetViewController.h; sourceTree = "<group>"; };
 		CE03EB451E246DA900629540 /* NetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetViewController.m; sourceTree = "<group>"; };
 		CE03EB481E248B7700629540 /* HttpTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTools.h; sourceTree = "<group>"; };
@@ -137,6 +169,8 @@
 		CEA206D71E2C4EC500F77F82 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
 		CEA206D81E2C4EC500F77F82 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
 		CEA206D91E2C4EC500F77F82 /* AddContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddContactViewController.xib; sourceTree = "<group>"; };
+		CEB95A0E1E53EF6C00BA1E78 /* ThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadViewController.h; sourceTree = "<group>"; };
+		CEB95A0F1E53EF6C00BA1E78 /* ThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadViewController.m; sourceTree = "<group>"; };
 		CED5338A1E28776F00330D70 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		CED5338C1E28777400330D70 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		CED533931E28B30500330D70 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
@@ -322,6 +356,10 @@
 		DF3BA0E51E1E3194005C14B7 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				CE02F6841E52DA7F009F3A77 /* PageControlViewController.xib */,
+				CE02F67F1E52AD6A009F3A77 /* PickerViewController.xib */,
+				CE02F67A1E52908F009F3A77 /* ToolBarViewController.xib */,
+				CE02F6701E528EDE009F3A77 /* MoreViewController.xib */,
 				CEA1907F1E2F56AB00C2B5EB /* AnimViewController.xib */,
 				CEA1907A1E2F3F9300C2B5EB /* ToastViewController.xib */,
 				DF3BA0D61E1DD50D005C14B7 /* Main.storyboard */,
@@ -337,6 +375,9 @@
 				CE2D844A1E480CFB00BDABAA /* ScrollElements.h */,
 				CE2D844B1E480CFB00BDABAA /* ScrollElements.m */,
 				CE2D844D1E480D1900BDABAA /* elements.xib */,
+				CE02F6731E528F53009F3A77 /* MoreView.h */,
+				CE02F6741E528F53009F3A77 /* MoreView.m */,
+				CE02F6761E528F62009F3A77 /* MoreView.xib */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -380,6 +421,20 @@
 				CEA1907E1E2F56AB00C2B5EB /* AnimViewController.m */,
 				CE2D844F1E480F4700BDABAA /* UIScrollViewViewController.h */,
 				CE2D84501E480F4700BDABAA /* UIScrollViewViewController.m */,
+				CE007CAB1E5137BE00B7CA90 /* SecondSlideViewController.h */,
+				CE007CAC1E5137BE00B7CA90 /* SecondSlideViewController.m */,
+				CE007CBA1E518C9A00B7CA90 /* SegueViewController.h */,
+				CE007CBB1E518C9A00B7CA90 /* SegueViewController.m */,
+				CE02F66E1E528EDE009F3A77 /* MoreViewController.h */,
+				CE02F66F1E528EDE009F3A77 /* MoreViewController.m */,
+				CE02F6781E52908F009F3A77 /* ToolBarViewController.h */,
+				CE02F6791E52908F009F3A77 /* ToolBarViewController.m */,
+				CE02F67D1E52AD6A009F3A77 /* PickerViewController.h */,
+				CE02F67E1E52AD6A009F3A77 /* PickerViewController.m */,
+				CE02F6821E52DA7F009F3A77 /* PageControlViewController.h */,
+				CE02F6831E52DA7F009F3A77 /* PageControlViewController.m */,
+				CEB95A0E1E53EF6C00BA1E78 /* ThreadViewController.h */,
+				CEB95A0F1E53EF6C00BA1E78 /* ThreadViewController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -467,7 +522,9 @@
 				CEA190731E2F185800C2B5EB /* tabBar.storyboard in Resources */,
 				CE0043231E27123D0084DE74 /* SQLiteViewController.xib in Resources */,
 				CEA206DB1E2C4EC500F77F82 /* AddContactViewController.xib in Resources */,
+				CE02F6861E52DA7F009F3A77 /* PageControlViewController.xib in Resources */,
 				CEA190811E2F56AB00C2B5EB /* AnimViewController.xib in Resources */,
+				CE02F6811E52AD6A009F3A77 /* PickerViewController.xib in Resources */,
 				CEA1907C1E2F3F9300C2B5EB /* ToastViewController.xib in Resources */,
 				CED5339B1E28B3DE00330D70 /* ContactsViewController.xib in Resources */,
 				DF3BA0DD1E1DD50D005C14B7 /* LaunchScreen.storyboard in Resources */,
@@ -475,6 +532,9 @@
 				CE4FBAA71E2C9F3A00CED536 /* NotificationViewController.xib in Resources */,
 				CE4FBAAC1E2CB72600CED536 /* SlideMenuViewController.xib in Resources */,
 				CE2D844E1E480D1900BDABAA /* elements.xib in Resources */,
+				CE02F6771E528F62009F3A77 /* MoreView.xib in Resources */,
+				CE02F67C1E52908F009F3A77 /* ToolBarViewController.xib in Resources */,
+				CE02F6721E528EDE009F3A77 /* MoreViewController.xib in Resources */,
 				CE2708501E275A0900F928F1 /* GestureViewController.xib in Resources */,
 				DF3BA0D81E1DD50D005C14B7 /* Main.storyboard in Resources */,
 			);
@@ -537,6 +597,7 @@
 			files = (
 				CEA190771E2F3C0100C2B5EB /* UIView+Toast.m in Sources */,
 				CEA190711E2F0FD000C2B5EB /* BlueViewController.m in Sources */,
+				CE02F6711E528EDE009F3A77 /* MoreViewController.m in Sources */,
 				CE0043221E27123D0084DE74 /* SQLiteViewController.m in Sources */,
 				DF13D4061E236CD300DF54D9 /* SaveInfoViewController.m in Sources */,
 				CE0043311E271A350084DE74 /* Student.m in Sources */,
@@ -544,17 +605,21 @@
 				CE06E6FA1E30BAA900B0E3E5 /* ViewUtils.m in Sources */,
 				CED5339A1E28B3DE00330D70 /* ContactsViewController.m in Sources */,
 				DF3BA0F31E1F45E9005C14B7 /* NewTableViewController.m in Sources */,
+				CE007CAD1E5137BE00B7CA90 /* SecondSlideViewController.m in Sources */,
 				CEA190801E2F56AB00C2B5EB /* AnimViewController.m in Sources */,
 				DF3BA0ED1E1E3EE3005C14B7 /* SecondViewController.m in Sources */,
 				CE06E6E21E30896300B0E3E5 /* JsonOperation.m in Sources */,
 				CEA1906E1E2F0FC500C2B5EB /* GreenViewController.m in Sources */,
+				CE02F67B1E52908F009F3A77 /* ToolBarViewController.m in Sources */,
 				CE06E6F71E30BA4100B0E3E5 /* ImageTools.m in Sources */,
 				DF3BA0D51E1DD50D005C14B7 /* ViewController.m in Sources */,
 				DF3BA0EA1E1E3313005C14B7 /* BaseViewController.m in Sources */,
+				CE02F6851E52DA7F009F3A77 /* PageControlViewController.m in Sources */,
 				CE06E6E51E3097AE00B0E3E5 /* UUIDUtils.m in Sources */,
 				DF3BA0F71E1F6EDD005C14B7 /* TVCellTableViewCell.m in Sources */,
 				CE03EB4A1E248B7700629540 /* HttpTools.m in Sources */,
 				CE00433A1E2721230084DE74 /* DatabaseHelper.m in Sources */,
+				CEB95A101E53EF6C00BA1E78 /* ThreadViewController.m in Sources */,
 				CE06E6E81E30999F00B0E3E5 /* Tools.m in Sources */,
 				CE06E6F41E30B98800B0E3E5 /* TimeUtils.m in Sources */,
 				CE0043341E271D860084DE74 /* DataBase.m in Sources */,
@@ -566,11 +631,14 @@
 				CEA1906B1E2F0FB900C2B5EB /* RedViewController.m in Sources */,
 				DF3BA0D21E1DD50D005C14B7 /* AppDelegate.m in Sources */,
 				CE06E6F11E30B59200B0E3E5 /* StringTools.m in Sources */,
+				CE007CBC1E518C9A00B7CA90 /* SegueViewController.m in Sources */,
 				CEA190661E2F0E0400C2B5EB /* TabBarViewController.m in Sources */,
 				DF3BA0CF1E1DD50D005C14B7 /* main.m in Sources */,
 				CE03EB461E246DA900629540 /* NetViewController.m in Sources */,
 				CEFF9FA81E26021800789D44 /* AFHttpUtils.m in Sources */,
 				DF3BA0FA1E1F97EC005C14B7 /* NewImageViewController.m in Sources */,
+				CE02F6801E52AD6A009F3A77 /* PickerViewController.m in Sources */,
+				CE02F6751E528F53009F3A77 /* MoreView.m in Sources */,
 				CE06E6EB1E309D5100B0E3E5 /* FormatUtils.m in Sources */,
 				CE2D844C1E480CFB00BDABAA /* ScrollElements.m in Sources */,
 				CE2D84511E480F4700BDABAA /* UIScrollViewViewController.m in Sources */,

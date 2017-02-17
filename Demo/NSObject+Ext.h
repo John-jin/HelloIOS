@@ -11,23 +11,18 @@
 @interface NSObject (Ext)
 
 /**
- * 对象序列成字典
+ *  模型转字典  [xxxModel dictionaryFromModel]
  *
- * @param obj 需要序列化的对象
- *
- * @return 字典
+ *  @return 字典
  */
-- (NSDictionary *)getDictionaryFromObject_Ext:(id)obj;
+- (NSDictionary *)dictionaryFromModel;
 
 /**
- * 将对象序列换成JSON字符串
+ *  带model的数组或字典转字典
  *
- * @param obj 需要序列换的参数
- * @param error 失败时，失败信息
+ *  @param object 带model的数组或字典转
  *
- * @return 修改的json的数据data
+ *  @return 字典
  */
-- (NSData *)getJSON_Ext:(id)obj options:(NSJSONWritingOptions)options error:(NSError**)error;
-
-
+- (id)idFromObject:(id)object;
 @end

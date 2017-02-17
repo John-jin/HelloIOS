@@ -24,6 +24,10 @@
 #import "AnimViewController.h"
 #import "ViewUtils.h"
 #import "UIScrollViewViewController.h"
+
+#import "NSObject+Ext.h"
+#import "Student.h"
+#import "MoreViewController.h"
 @interface ViewController ()
 
 @end
@@ -39,6 +43,20 @@ UIVisualEffectView *view;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    Student *stu = [[Student alloc] init];
+//    stu.age = 18;
+//    stu.sex = @"男";
+//    stu.name = @"张三";
+//    NSArray *array = @[@"1",@"2",@"3"];
+//    [stu setValue:array forKey:@"array"];
+//    NSDictionary *dict = [stu dictionaryFromModel];
+//    NSLog(@"%@",dict);
+    UIBarButtonItem *right = [[UIBarButtonItem alloc] initWithTitle:@"更多" style:UIBarButtonItemStylePlain target:self action:@selector(rightClick)];
+    self.navigationItem.rightBarButtonItem = right;
+}
+-(void)rightClick{
+    MoreViewController *cv = [[MoreViewController alloc] init];
+    [self nextController:cv :@"more"];
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     view = [ViewUtils BlurEffect:self.view :view];
